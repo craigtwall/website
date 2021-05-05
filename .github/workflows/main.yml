@@ -39,7 +39,7 @@ jobs:
         with:
           azcliversion: 2.0.72
           inlineScript: |
-            az cdn endpoint purge --content-paths "/*" --profile-name "cdn-resumechallenge" --name "cdn-craigtwall-resumechallenge.azureedge.net" --resource-group "craigtwall-cloudresumechallenge"
+            az cdn endpoint purge --content-paths "/*" --profile-name "cdn-resumechallenge" --name "https://cdn-craigtwall-resumechallenge.azureedge.net" --resource-group "craigtwall-cloudresumechallenge"
             
       # Azure Logout
       - name: logout
